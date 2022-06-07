@@ -10,3 +10,14 @@ function teste() {
   }
 }
 botao.addEventListener('click', teste);
+
+const botao2 = document.querySelector('#submit-btn');
+const checkbox = document.querySelector('#agreement');
+
+function ativarbotao() {
+  botao2.disabled = !checkbox.checked;
+  // if(checkbox.checked === true){
+  //   botao2.disabled = botao2.enabled;
+}
+
+checkbox.addEventListener('change', ativarbotao);
