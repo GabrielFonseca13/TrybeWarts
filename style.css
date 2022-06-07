@@ -28,6 +28,38 @@ main {
   flex-direction: column;
 }
 
+.ladoalado {
+  flex-flow: row wrap;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+#input-name {
+  width: 280px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#input-lastname {
+  width: 280px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#input-email {
+  width: 280px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#house {
+  width: 280px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
