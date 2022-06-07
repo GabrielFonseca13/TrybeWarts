@@ -63,3 +63,14 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.embaixo {
+  display: flex;
+  flex-flow: row wrap;
+  width: 125px;
+  margin-top: 20px;
+}
+
+#label-family {
+  margin-bottom: 20px;
+}
